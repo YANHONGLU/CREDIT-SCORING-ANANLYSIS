@@ -1,0 +1,25 @@
+,,,,,,,,,,1-Specificity,Sensitivity,Specificity,
+Decile,Total,Probability_Good(min),Good,Bad,,Good,Bad,Cumm. Good,Cumm. Bad,Cumm. Bad %,Cumm. Good %,Cumm. Bad Avoided %,Profit to Business
+1,60,0.97 ,59 ,1 ,,59 ,1 ,59 ,1 ,1.13%,11.79%,98.87%,5313.69 
+2,60,0.96 ,58 ,2 ,,58 ,2 ,117 ,3 ,2.10%,23.39%,97.90%,10042.89 
+3,60,0.94 ,57 ,3 ,,57 ,3 ,174 ,6 ,3.11%,34.79%,96.89%,14155.28 
+4,60,0.92 ,56 ,4 ,,56 ,4 ,229 ,11 ,4.18%,45.97%,95.82%,17620.28 
+5,60,0.90 ,54 ,6 ,,54 ,6 ,284 ,16 ,5.47%,56.88%,94.53%,20307.41 
+6,60,0.86 ,53 ,7 ,,53 ,7 ,337 ,23 ,7.13%,67.46%,92.87%,21984.09 
+7,60,0.81 ,50 ,10 ,,50 ,10 ,387 ,33 ,9.62%,77.54%,90.38%,22154.19 
+8,60,0.72 ,46 ,14 ,,46 ,14 ,433 ,47 ,13.76%,86.78%,86.24%,19815.26 
+9,60,0.58 ,39 ,21 ,,39 ,21 ,472 ,68 ,20.35%,94.68%,79.65%,13482.63 
+10,60,0.04 ,26 ,34 ,,26 ,34 ,499 ,101 ,33.52%,99.92%,66.48%,(831.37)
+??,600,0.04 ,499 ,101 ,,499 ,101 ,499 ,101 ,100.00%,100.00%,0.00%,(600.00)
+,,,,,,,,,,,,,
+,,,,,,Assumptions,,,,,,,
+,,,,,,Loss from a bad loan (Target = 1),,,500,,,,
+,,,,,,Profit from a good loan (Target = 0),,,100,,,,
+,,,,,,,,,,,,,
+,,,,,,Final Recommendation: Keeping Only Profitability in Mind,,,,,,,
+,,,,,,"Approve Loan Application, if Probability for Target = 0 is higher than",,,0.81,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,Final Recommendation: Keeping Profitability & Expansion in Mind,,,,,,,
+,,,,,,"Approve Loan Application, if Probability for Target = 0 is higher than",,,0.72,,,,
+,,,,,,,,,,,,,
