@@ -49,6 +49,8 @@ Applied decile methodology to formulate the lending strategy in Excel.
 
 
 5)Conclusions:
+https://docs.google.com/spreadsheets/d/1UbgAsNpm1iGDK4LVQYyx39vCST0UI5Ik6tAqTJuKqBs/edit#gid=1180949023
+
 
 ![image](https://user-images.githubusercontent.com/74843963/192164431-5557cad4-0fe6-45fb-9d7f-8b7272fc8497.png)
 
